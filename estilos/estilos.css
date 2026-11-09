@@ -13,7 +13,7 @@ h1 {
     color: darkblue;
 }
 
-imag {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -22,5 +22,30 @@ imag {
 }
 
 p {
-    padding: 10px;
+    padding: 0;
+}
+
+main {
+    max-width: 840px;
+}
+
+aside {
+    width: 500px;
+    margin: 20px;
+    border: 5px solid rgb(0 0 0 / 0.2);
+    padding: 20px;
+    background-color: #eeece8;
+    color: #000;
+    text-align: center;
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 20px;
+    border-top: 2px solid #000;
+    text-align: center;
 }
