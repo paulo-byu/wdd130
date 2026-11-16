@@ -40,7 +40,8 @@ article {
     padding: 8px;
 }
 
-.redes-sociais a {
+.redes-sociais a,
+.socialmedia a {
     text-decoration: none;
 }
 
@@ -74,6 +75,7 @@ article {
     float: right;
     width: 125px;
     margin-left: 16px;
+    border: 2px solid var(--cor-secundaria);
 }
 
 h1 {
